@@ -1,0 +1,54 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Uhhmmmm Cafezinho.....\");\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 145b1e0c8b75bc227d0797c73c95139df4640e7e)
++++ b/src/Main.java	(date 1741807263514)
+@@ -1,5 +1,10 @@
+ public class Main {
+     public static void main(String[] args) {
+-        System.out.println("Uhhmmmm Cafezinho.....");
++
++        double  fahrenheit = 83;
++
++        double convercao = (fahrenheit - 32) * 5/9;
++
++        System.out.println("83°F é equivalente a: " + convercao + "°C");
+     }
+ }
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/Course.iml\" filepath=\"$PROJECT_DIR$/Course.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision 145b1e0c8b75bc227d0797c73c95139df4640e7e)
++++ b/.idea/modules.xml	(date 1741712090095)
+@@ -3,6 +3,7 @@
+   <component name="ProjectModuleManager">
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/Course.iml" filepath="$PROJECT_DIR$/Course.iml" />
++      <module fileurl="file://$PROJECT_DIR$/../clinicaMobius/clinicaMobius.iml" filepath="$PROJECT_DIR$/../clinicaMobius/clinicaMobius.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/operadoresLogicos/operadores.java
+===================================================================
+diff --git a/src/operadoresLogicos/operadores.java b/src/operadoresLogicos/operadores.java
+new file mode 100644
+--- /dev/null	(date 1743609259912)
++++ b/src/operadoresLogicos/operadores.java	(date 1743609259912)
+@@ -0,0 +1,5 @@
++package operadoresLogicos;
++
++public class operadores {
++    
++}
